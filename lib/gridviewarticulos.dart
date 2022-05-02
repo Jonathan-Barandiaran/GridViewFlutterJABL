@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({Key? key}) : super(key: key);
+class PaginaInicial extends StatefulWidget {
+  const PaginaInicial({Key? key}) : super(key: key);
   @override
-  _MyHomePageState createState() => _MyHomePageState();
+  _PaginaInicial createState() => _PaginaInicial();
 } //widget con estado siempre se tendra myhomepage el keys
 
-class _MyHomePageState extends State<MyHomePage> {
+class _PaginaInicial extends State<PaginaInicial> {
   List<String> images = [
     "assets/images/E1.jpg",
     "assets/images/E2.jpg",
@@ -21,22 +21,18 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text("My App FARMACIA"),
+          title: const Text("Farmacia"),
           centerTitle: true,
           backgroundColor: Colors.indigo,
           automaticallyImplyLeading: true,
           actions: [
             IconButton(
               icon: const Icon(Icons.add_box_rounded),
-              onPressed: () {
-                print("Soy lupita");
-              },
+              onPressed: () {},
             ),
             IconButton(
               icon: const Icon(Icons.add_business),
-              onPressed: () {
-                print("Soy lupita");
-              },
+              onPressed: () {},
             ),
             IconButton(
               icon: const Icon(Icons.more_vert),
