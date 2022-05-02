@@ -10,18 +10,12 @@ class _PaginaInicial2 extends State<PaginaInicial2> {
   List<String> images = [
     "assets/images/E1.jpg",
     "assets/images/E2.jpg",
-    "assets/images/E3.jpg",
-    "assets/images/E4.jpg",
-    "assets/images/E5.jpg",
-    "assets/images/E3.jpg",
-    "assets/images/E1.jpg",
-    "assets/images/E4.jpg",
   ]; //Lista de imagenes
   @override
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text("My App FARMACIA"),
+          title: const Text("Inicio"),
           centerTitle: true,
           backgroundColor: Colors.indigo,
           automaticallyImplyLeading: true,
