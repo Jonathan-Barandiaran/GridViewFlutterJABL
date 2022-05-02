@@ -32,7 +32,10 @@ class _PaginaInicial extends State<PaginaInicial> {
             ),
             IconButton(
               icon: const Icon(Icons.add_business),
-              onPressed: () {},
+              onPressed: () {
+                // Navega a la segunda pantalla usando una ruta con nombre
+                Navigator.pushNamed(context, '/second');
+              },
             ),
             IconButton(
               icon: const Icon(Icons.more_vert),
